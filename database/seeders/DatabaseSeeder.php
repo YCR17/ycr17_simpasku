@@ -24,5 +24,15 @@ class DatabaseSeeder extends Seeder
             'role' => 'admin',
             'secret_key' => 'MySecretKey'
         ]);
+
+
+        User::create([
+            'fullname' => 'Staff Satu',
+            'username' => 'staff.satu',
+            'email' => 'staffsatu@pkuwsb.id',
+            'password' => Hash::make('KataSandi456'),
+            'role' => 'staff',
+            'secret_key' => 'MySecretKey'
+        ]);
     }
 }
