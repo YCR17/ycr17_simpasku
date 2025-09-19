@@ -45,7 +45,6 @@ cd ycr17_simpasku
 2. **Install Dependencies**
 ```bash
 composer install
-npm install # jika menggunakan asset frontend
 ```
 
 3. **Buat File .env**
