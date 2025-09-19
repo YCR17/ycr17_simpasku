@@ -68,7 +68,12 @@ php artisan migrate
 php artisan db:seed
 ```
 
-7. **Jalankan Server Laravel**
+7. **Storage Link**
+```bash
+php artisan storage:link
+```
+
+8. **Jalankan Server Laravel**
 ```bash
 php artisan serve
 ```
