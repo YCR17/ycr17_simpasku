@@ -51,7 +51,29 @@ composer install
 ```bash
 cp .env.example .env
 ```
-Konfigurasikan database dan environment sesuai sistem kamu.
+Konfigurasikan database dan environment sesuai sistem.
+
+
+---
+
+
+## Setting Environment (.env)
+
+
+Pastikan environment di `.env` disesuaikan dengan lokal user:
+
+
+| Variable | Contoh |
+|----------|--------|
+| DB_CONNECTION | mysql |
+| DB_HOST | 127.0.0.1 |
+| DB_PORT | 3306 |
+| DB_DATABASE | your_db_name |
+| DB_USERNAME | your_db_username |
+| DB_PASSWORD | your_db_password |
+
+
+---
 
 4. **Generate Key Laravel**
 ```bash
@@ -79,9 +101,6 @@ php artisan serve
 ```
 Akses aplikasi di `http://localhost:8000`.
 
----
-
----
 
 
 ## Informasi Login Default
