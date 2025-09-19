@@ -38,8 +38,8 @@ Simpasku adalah aplikasi **Sistem Manajemen Pasien** berbasis web yang dirancang
 
 1. **Clone Repository**
 ```bash
-git clone https://github.com/username/simpasku.git
-cd simpasku
+git clone https://github.com/YCR17/ycr17_simpasku
+cd ycr17_simpasku
 ```
 
 2. **Install Dependencies**
@@ -69,7 +69,7 @@ php artisan migrate
 php artisan db:seed
 ```
 
-6. **Jalankan Server Laravel**
+7. **Jalankan Server Laravel**
 ```bash
 php artisan serve
 ```
