@@ -19,7 +19,7 @@ return new class extends Migration
             $table->string('email')->unique();
             $table->string('password');
             $table->enum('role', ['staff', 'admin'])->default('staff');
-            $table->string('secret_key');
+            // $table->string('secret_key');
             $table->timestamps();
         });
 

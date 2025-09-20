@@ -22,7 +22,7 @@ class DatabaseSeeder extends Seeder
             'email' => 'admin@pkuwsb.id',
             'password' => Hash::make('KataSandi123'),
             'role' => 'admin',
-            'secret_key' => 'MySecretKey'
+            // 'secret_key' => 'MySecretKey'
         ]);
 
 
@@ -32,7 +32,7 @@ class DatabaseSeeder extends Seeder
             'email' => 'staffsatu@pkuwsb.id',
             'password' => Hash::make('KataSandi456'),
             'role' => 'staff',
-            'secret_key' => 'MySecretKey'
+            // 'secret_key' => 'MySecretKey'
         ]);
     }
 }
