@@ -126,4 +126,4 @@ Akses aplikasi di `http://localhost:8000`.
 
 ## License
 
-Lisensi dapat disesuaikan (misal MIT, GPL, atau internal/private).
+MIT
