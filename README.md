@@ -127,4 +127,4 @@ Akses aplikasi di `http://localhost:8000`.
 ## License
 
 
-[MIT](LICENSE) &copy; [YCR17]
+[MIT](LICENSE.txt) &copy; [YCR17]
